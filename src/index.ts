@@ -78,7 +78,17 @@ const sslChecker = (
         }
       );
 
-      req.on("error", reject);
+      // req.on("error", reject);
+      // Fix
+      req.on('error', function () {
+        resolve({
+            daysRemaining: 0,
+            valid: false,
+            validFrom: 'ENONET',
+            validTo: 'ENONET',
+            validFor: [host]
+        });
+      });
       req.on("timeout", () => {
           req.abort()
           reject(new Error('Timed Out'))
