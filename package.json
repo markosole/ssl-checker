@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyaa/ssl-checker.git"
+    "url": "git+https://github.com/markosole/ssl-checker.git"
   },
   "keywords": [
     "ssl",
@@ -34,9 +34,9 @@
   "author": "Dyaa Eldin <mail@dyaa.me> (https://dyaa.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dyaa/ssl-checker/issues"
+    "url": "https://github.com/markosole/ssl-checker/issues"
   },
-  "homepage": "https://github.com/dyaa/ssl-checker#readme",
+  "homepage": "https://github.com/markosole/ssl-checker#readme",
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/node": "^15.0.2",
